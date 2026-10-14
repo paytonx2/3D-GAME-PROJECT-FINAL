@@ -90,7 +90,8 @@ func _physics_process(delta: float) -> void:
 	if noclip:
 		fly(delta)
 		return
-	var controls_active := Input.mouse_mode == Input.MOUSE_MODE_CAPTURED and not controls_locked
+	# Keyboard works even if the browser refuses to lock the mouse pointer.
+	var controls_active := not controls_locked
 	var input := Input.get_vector("move_left", "move_right", "move_forward", "move_back") if controls_active else Vector2.ZERO
 	var direction := Vector3(input.x, 0, input.y).rotated(Vector3.UP, spring_arm.rotation.y)
 	var running := controls_active and Input.is_action_pressed("sprint")

@@ -6,7 +6,7 @@
 
 ## เล่นบนเว็บ
 
-[เปิดเกม](https://natdanai137.github.io/3D_Game/)
+[เปิดเกม]()
 
 ลิงก์จะใช้งานได้หลังเปิด GitHub Pages และ deployment สำเร็จ
 

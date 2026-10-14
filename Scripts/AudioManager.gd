@@ -13,6 +13,13 @@ var track: int = 0
 
 func _ready() -> void:
 	process_mode = Node.PROCESS_MODE_ALWAYS
+	# Create the Music/SFX buses if the bus layout file is missing (e.g. left out
+	# of an export). Playing on a bus that does not exist crashes Web audio.
+	for bus_name in ['Music', 'SFX']:
+		if AudioServer.get_bus_index(bus_name) < 0:
+			AudioServer.add_bus()
+			AudioServer.set_bus_name(AudioServer.bus_count - 1, bus_name)
+			AudioServer.set_bus_send(AudioServer.bus_count - 1, &'Master')
 	jump_sfx.bus = &'SFX'
 	coin_sfx.bus = &'SFX'
 	music = AudioStreamPlayer.new()

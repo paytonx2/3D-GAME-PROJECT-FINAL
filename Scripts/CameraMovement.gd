@@ -29,6 +29,9 @@ func _process(delta: float) -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
 		Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
-	if event is InputEventMouseMotion and Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
+	# Turn with the locked mouse, or by dragging with a button held when the
+	# browser does not allow pointer lock.
+	var dragging: bool = event is InputEventMouseMotion and event.button_mask & (MOUSE_BUTTON_MASK_LEFT | MOUSE_BUTTON_MASK_RIGHT) != 0
+	if event is InputEventMouseMotion and (Input.mouse_mode == Input.MOUSE_MODE_CAPTURED or dragging):
 		rotation_degrees.x = clampf(rotation_degrees.x - event.relative.y * mouse_sensitivity, -65.0, 45.0)
 		rotation_degrees.y = wrapf(rotation_degrees.y - event.relative.x * mouse_sensitivity, -180.0, 180.0)

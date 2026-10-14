@@ -32,6 +32,7 @@ func run() -> void:
 	gm().clear_progress()
 	check(change_scene_to_file('res://Scenes/main_menu.tscn') == OK, 'Menu loads')
 	await settle(40)
+	await create_timer(1.2).timeout
 	var menu = current_scene
 	check(menu.play_button.has_focus(), 'Start has keyboard focus')
 	check(menu.background.texture.resource_path.ends_with('Just_GO_UP.png'), 'Poster background is used')
