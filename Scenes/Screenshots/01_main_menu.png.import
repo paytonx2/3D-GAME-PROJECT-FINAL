@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://y2evv6d47xx2"
-path="res://.godot/imported/StartButtonHOVER_alpha.png-6b5260ec58467d7aaa61c24a7bb23262.ctex"
+uid="uid://puq0sqa78v4q"
+path="res://.godot/imported/01_main_menu.png-55616dcfd460e7e6ed15449b0ff8fd2e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/BUTTON/StartButtonHOVER_alpha.png"
-dest_files=["res://.godot/imported/StartButtonHOVER_alpha.png-6b5260ec58467d7aaa61c24a7bb23262.ctex"]
+source_file="res://Scenes/Screenshots/01_main_menu.png"
+dest_files=["res://.godot/imported/01_main_menu.png-55616dcfd460e7e6ed15449b0ff8fd2e.ctex"]
 
 [params]
 
@@ -36,5 +36,5 @@ process/premult_alpha=false
 process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
-process/size_limit=1024
+process/size_limit=0
 detect_3d/compress_to=1

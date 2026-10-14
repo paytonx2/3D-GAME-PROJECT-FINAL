@@ -31,9 +31,14 @@ var noclip: bool = false
 const NOCLIP_SPEED := 12.0
 const NOCLIP_FAST := 32.0
 var sparkles: CPUParticles3D
+## Footsteps keep playing through brief floor-contact flickers (moving
+## platforms, bumps) instead of stuttering on and off every frame.
+var step_time: float = 0.0
 
 func _ready() -> void:
 	footsteps.bus = &'SFX'
+	footsteps.autoplay = false
+	footsteps.stop()
 	sparkles = CPUParticles3D.new()
 	sparkles.name = 'BoostSparkles'
 	sparkles.amount = 24
@@ -84,7 +89,9 @@ func fly(delta: float) -> void:
 		model.rotation.y = lerp_angle(model.rotation.y, atan2(velocity.x, velocity.z), 1.0 - exp(-10.0 * delta))
 	model.animate(delta, 0.0, false, -1.0, false)
 	particle_trail.emitting = false
-	footsteps.stream_paused = true
+	step_time = 0.0
+	if footsteps.playing:
+		footsteps.stop()
 
 func _physics_process(delta: float) -> void:
 	if noclip:
@@ -111,8 +118,17 @@ func _physics_process(delta: float) -> void:
 		model.rotation.y = lerp_angle(model.rotation.y, atan2(velocity.x, velocity.z), 1.0 - exp(-14.0 * delta))
 	model.animate(delta, horizontal_speed, is_on_floor(), velocity.y, running)
 	particle_trail.emitting = is_on_floor() and horizontal_speed > 4.0
-	footsteps.stream_paused = not (is_on_floor() and horizontal_speed > 0.3)
-	footsteps.pitch_scale = 1.15 if running else 0.8
+	update_footsteps(delta, is_on_floor() and horizontal_speed > 0.6, running)
+
+func update_footsteps(delta: float, walking: bool, running: bool) -> void:
+	step_time = 0.15 if walking else maxf(0.0, step_time - delta)
+	var should_play := step_time > 0.0
+	if should_play and not footsteps.playing:
+		footsteps.play()
+	elif not should_play and footsteps.playing:
+		footsteps.stop()
+	# Ease the pitch so switching walk/run does not click.
+	footsteps.pitch_scale = move_toward(footsteps.pitch_scale, 1.15 if running else 0.85, delta * 2.0)
 
 func update_jump_state(delta: float) -> void:
 	if is_on_floor() and velocity.y <= 0.0:

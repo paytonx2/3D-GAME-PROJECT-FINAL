@@ -7,7 +7,7 @@ const STORY_SCENE := 'res://Scenes/story.tscn'
 const ART := 'res://Assets/BUTTON/'
 # name, normal, hover, rect (position, size) in the 1280x720 layout.
 const DEFAULT_BUTTONS := [
-	['Play', 'StartButton.png', 'StartButtonHOVER_alpha.png', Rect2(124, 283.5, 350, 117)],
+	['Play', 'StartButton.png', 'StartButtonHOVER.png', Rect2(124, 283.5, 350, 117)],
 	['Continue', 'GameButton.png', 'Continue ButtonHOVE.png', Rect2(149, 371, 292, 100)],
 	['Options', 'OptionButton .png', 'Option ButtonHOVE.png', Rect2(149, 436, 292, 100)],
 	['Credits', 'CreditButton.png', 'CreditButtonHOVE.png', Rect2(160, 507, 270, 90)],

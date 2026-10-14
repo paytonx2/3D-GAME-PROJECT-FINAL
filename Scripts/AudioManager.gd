@@ -9,6 +9,7 @@ const PLAYLIST := [
 @onready var jump_sfx: AudioStreamPlayer = $JumpSfx
 @onready var coin_sfx: AudioStreamPlayer = $CoinSfx
 var music: AudioStreamPlayer
+var hover_sfx: AudioStreamPlayer
 var track: int = 0
 
 func _ready() -> void:
@@ -30,6 +31,20 @@ func _ready() -> void:
 	# The two songs take turns, forever.
 	music.finished.connect(func(): play_track(track + 1))
 	play_track(0)
+	hover_sfx = AudioStreamPlayer.new()
+	hover_sfx.name = 'HoverSfx'
+	hover_sfx.bus = &'SFX'
+	hover_sfx.stream = load('res://Assets/Audio/buttonsound.mp3')
+	hover_sfx.volume_db = -4.0
+	add_child(hover_sfx)
+	# Every button anywhere in the game plays the hover sound.
+	get_tree().node_added.connect(_on_node_added)
+
+func _on_node_added(node: Node) -> void:
+	if node is BaseButton:
+		node.mouse_entered.connect(func():
+			if not node.disabled:
+				hover_sfx.play())
 
 func play_track(index: int) -> void:
 	track = index % PLAYLIST.size()
