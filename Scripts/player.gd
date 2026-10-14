@@ -33,6 +33,7 @@ const NOCLIP_FAST := 32.0
 var sparkles: CPUParticles3D
 
 func _ready() -> void:
+	footsteps.bus = &'SFX'
 	sparkles = CPUParticles3D.new()
 	sparkles.name = 'BoostSparkles'
 	sparkles.amount = 24
