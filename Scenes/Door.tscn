@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Door.gd" id="1_door"]
+[ext_resource type="PackedScene" uid="uid://bl5lrrecsh57e" path="res://Assets/Models/flag.glb" id="2_flag"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_door"]
+radius = 0.9
+height = 2.2
+
+[node name="Door" type="Area3D" groups=["Door"]]
+script = ExtResource("1_door")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1, 0)
+shape = SubResource("CylinderShape3D_door")
+
+[node name="flag" parent="." instance=ExtResource("2_flag")]
+
+[node name="Glow" type="OmniLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4, 0)
+light_color = Color(1, 0.85098, 0.45098, 1)
+light_energy = 1.5
+omni_range = 4.0
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

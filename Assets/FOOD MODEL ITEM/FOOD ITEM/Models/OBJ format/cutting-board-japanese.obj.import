@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://djg6jr06u33hw"
+path="res://.godot/imported/cutting-board-japanese.obj-04502f31e72f3e05d63bf3e4c19ca8fd.mesh"
+
+[deps]
+
+files=["res://.godot/imported/cutting-board-japanese.obj-04502f31e72f3e05d63bf3e4c19ca8fd.mesh"]
+
+source_file="res://Assets/FOOD MODEL ITEM/FOOD ITEM/Models/OBJ format/cutting-board-japanese.obj"
+dest_files=["res://.godot/imported/cutting-board-japanese.obj-04502f31e72f3e05d63bf3e4c19ca8fd.mesh", "res://.godot/imported/cutting-board-japanese.obj-04502f31e72f3e05d63bf3e4c19ca8fd.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

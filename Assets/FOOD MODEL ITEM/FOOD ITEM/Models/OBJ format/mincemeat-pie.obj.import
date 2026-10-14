@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cfktrm1ro0hnb"
+path="res://.godot/imported/mincemeat-pie.obj-f4ab747a11e6a2287661d58bbd9fe28d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/mincemeat-pie.obj-f4ab747a11e6a2287661d58bbd9fe28d.mesh"]
+
+source_file="res://Assets/FOOD MODEL ITEM/FOOD ITEM/Models/OBJ format/mincemeat-pie.obj"
+dest_files=["res://.godot/imported/mincemeat-pie.obj-f4ab747a11e6a2287661d58bbd9fe28d.mesh", "res://.godot/imported/mincemeat-pie.obj-f4ab747a11e6a2287661d58bbd9fe28d.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

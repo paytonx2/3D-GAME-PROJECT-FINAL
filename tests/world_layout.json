@@ -1,0 +1,1999 @@
+{
+	"platforms": [
+		{
+			"half_depth": 2.2,
+			"heading_deg": 0.0,
+			"kind": "taxi",
+			"landing": [
+				0.0,
+				2.04,
+				-26.2
+			],
+			"motion": "",
+			"name": "Platform01",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.65,
+			"heading_deg": 100.6,
+			"kind": "table2",
+			"landing": [
+				0.0,
+				3.24,
+				-31.33
+			],
+			"motion": "",
+			"name": "Platform02",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 206.3,
+			"kind": "crate",
+			"landing": [
+				0.0,
+				4.64,
+				-37.33
+			],
+			"motion": "slide",
+			"name": "Platform03",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.3,
+			"heading_deg": 33.4,
+			"kind": "lambo",
+			"landing": [
+				-2.16,
+				5.84,
+				-42.42
+			],
+			"motion": "",
+			"name": "Platform04",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 313.2,
+			"kind": "police",
+			"landing": [
+				-2.74,
+				7.54,
+				-47.99
+			],
+			"motion": "",
+			"name": "Platform05",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 290.7,
+			"kind": "car",
+			"landing": [
+				-4.6,
+				9.14,
+				-51.42
+			],
+			"motion": "rock",
+			"name": "Platform06",
+			"zone": 0
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 367.6,
+			"kind": "building",
+			"landing": [
+				-10.48,
+				10.34,
+				-56.03
+			],
+			"motion": "rock",
+			"name": "Platform07",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 439.4,
+			"kind": "crate",
+			"landing": [
+				-17.07,
+				11.64,
+				-57.15
+			],
+			"motion": "",
+			"name": "Platform08",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 255.0,
+			"kind": "police",
+			"landing": [
+				-22.62,
+				12.94,
+				-56.39
+			],
+			"motion": "bob",
+			"name": "Platform09",
+			"zone": 0
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 179.6,
+			"kind": "train",
+			"landing": [
+				-29.21,
+				14.74,
+				-52.64
+			],
+			"motion": "",
+			"name": "Platform10",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 304.9,
+			"kind": "car",
+			"landing": [
+				-35.48,
+				16.14,
+				-51.02
+			],
+			"motion": "spin",
+			"name": "Platform11",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 326.8,
+			"kind": "table1",
+			"landing": [
+				-40.06,
+				17.54,
+				-48.43
+			],
+			"motion": "",
+			"name": "Platform12",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 217.4,
+			"kind": "police",
+			"landing": [
+				-42.85,
+				19.14,
+				-44.85
+			],
+			"motion": "bob",
+			"name": "Platform13",
+			"zone": 0
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 323.5,
+			"kind": "building",
+			"landing": [
+				-44.3,
+				20.54,
+				-36.17
+			],
+			"motion": "orbit",
+			"name": "Platform14",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 294.0,
+			"kind": "police",
+			"landing": [
+				-43.05,
+				21.84,
+				-27.89
+			],
+			"motion": "flip",
+			"name": "Platform15",
+			"zone": 0
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 215.6,
+			"kind": "train",
+			"landing": [
+				-37.99,
+				23.14,
+				-20.82
+			],
+			"motion": "rock",
+			"name": "Platform16",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 509.3,
+			"kind": "sofa",
+			"landing": [
+				-30.17,
+				24.64,
+				-15.61
+			],
+			"motion": "",
+			"name": "Platform17",
+			"zone": 0
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 353.9,
+			"kind": "building",
+			"landing": [
+				-25.39,
+				26.14,
+				-9.63
+			],
+			"motion": "rock",
+			"name": "Platform18",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 484.0,
+			"kind": "police",
+			"landing": [
+				-18.82,
+				27.74,
+				-5.52
+			],
+			"motion": "spin",
+			"name": "Platform19",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 241.8,
+			"kind": "sofa",
+			"landing": [
+				-14.36,
+				29.44,
+				-0.9
+			],
+			"motion": "orbit",
+			"name": "Platform20",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 422.6,
+			"kind": "table1",
+			"landing": [
+				-11.33,
+				30.94,
+				4.56
+			],
+			"motion": "bob",
+			"name": "Platform21",
+			"zone": 0
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 364.6,
+			"kind": "building",
+			"landing": [
+				-5.93,
+				32.54,
+				9.35
+			],
+			"motion": "",
+			"name": "Platform22",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 391.4,
+			"kind": "car",
+			"landing": [
+				0.98,
+				34.04,
+				12.43
+			],
+			"motion": "flip",
+			"name": "Platform23",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.3,
+			"heading_deg": 559.3,
+			"kind": "lambo",
+			"landing": [
+				6.68,
+				35.74,
+				12.78
+			],
+			"motion": "spin",
+			"name": "Platform24",
+			"zone": 0
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 465.6,
+			"kind": "pipe",
+			"landing": [
+				10.85,
+				37.04,
+				11.77
+			],
+			"motion": "",
+			"name": "Platform25",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 469.9,
+			"kind": "crate",
+			"landing": [
+				15.78,
+				38.44,
+				12.13
+			],
+			"motion": "spin",
+			"name": "Platform26",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.65,
+			"heading_deg": 270.1,
+			"kind": "table2",
+			"landing": [
+				22.73,
+				39.94,
+				14.4
+			],
+			"motion": "orbit",
+			"name": "Platform27",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 350.2,
+			"kind": "car",
+			"landing": [
+				28.49,
+				41.64,
+				17.88
+			],
+			"motion": "",
+			"name": "Platform28",
+			"zone": 0
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 251.3,
+			"kind": "pipe",
+			"landing": [
+				31.47,
+				42.44,
+				20.53
+			],
+			"motion": "",
+			"name": "Platform29",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 379.9,
+			"kind": "table1",
+			"landing": [
+				35.41,
+				43.94,
+				21.85
+			],
+			"motion": "flip",
+			"name": "Platform30",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 597.7,
+			"kind": "police",
+			"landing": [
+				39.94,
+				45.54,
+				21.11
+			],
+			"motion": "bob",
+			"name": "Platform31",
+			"zone": 0
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 524.9,
+			"kind": "pipe",
+			"landing": [
+				43.12,
+				46.84,
+				18.59
+			],
+			"motion": "spin",
+			"name": "Platform32",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.65,
+			"heading_deg": 428.8,
+			"kind": "table2",
+			"landing": [
+				45.47,
+				48.44,
+				14.66
+			],
+			"motion": "spin",
+			"name": "Platform33",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 609.7,
+			"kind": "table1",
+			"landing": [
+				45.95,
+				49.74,
+				9.64
+			],
+			"motion": "rock",
+			"name": "Platform34",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 524.8,
+			"kind": "sofa",
+			"landing": [
+				47.09,
+				51.14,
+				6.21
+			],
+			"motion": "flip",
+			"name": "Platform35",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 493.4,
+			"kind": "crate",
+			"landing": [
+				50.02,
+				52.74,
+				2.12
+			],
+			"motion": "",
+			"name": "Platform36",
+			"zone": 0
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 352.0,
+			"kind": "train",
+			"landing": [
+				51.37,
+				54.54,
+				-7.5
+			],
+			"motion": "slide",
+			"name": "Platform37",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 597.5,
+			"kind": "car",
+			"landing": [
+				48.93,
+				56.14,
+				-17.42
+			],
+			"motion": "flip",
+			"name": "Platform38",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 728.6,
+			"kind": "police",
+			"landing": [
+				44.73,
+				57.44,
+				-22.01
+			],
+			"motion": "flip",
+			"name": "Platform39",
+			"zone": 0
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 484.7,
+			"kind": "train",
+			"landing": [
+				37.91,
+				59.04,
+				-25.23
+			],
+			"motion": "bob",
+			"name": "Platform40",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 458.2,
+			"kind": "car",
+			"landing": [
+				27.52,
+				60.34,
+				-26.32
+			],
+			"motion": "orbit",
+			"name": "Platform41",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 590.3,
+			"kind": "police",
+			"landing": [
+				18.34,
+				61.74,
+				-30.11
+			],
+			"motion": "orbit",
+			"name": "Platform42",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.65,
+			"heading_deg": 567.5,
+			"kind": "table2",
+			"landing": [
+				11.2,
+				63.44,
+				-29.23
+			],
+			"motion": "flip",
+			"name": "Platform43",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 638.6,
+			"kind": "police",
+			"landing": [
+				6.46,
+				64.84,
+				-26.49
+			],
+			"motion": "flip",
+			"name": "Platform44",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.65,
+			"heading_deg": 842.2,
+			"kind": "table2",
+			"landing": [
+				1.0,
+				66.14,
+				-20.96
+			],
+			"motion": "orbit",
+			"name": "Platform45",
+			"zone": 0
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 733.3,
+			"kind": "building",
+			"landing": [
+				-2.52,
+				68.04,
+				-11.1
+			],
+			"motion": "slide",
+			"name": "Platform46",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 718.5,
+			"kind": "table1",
+			"landing": [
+				-1.43,
+				69.74,
+				-4.59
+			],
+			"motion": "spin",
+			"name": "Platform47",
+			"zone": 0
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 690.2,
+			"kind": "car",
+			"landing": [
+				1.96,
+				71.04,
+				0.06
+			],
+			"motion": "slide",
+			"name": "Platform48",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 731.8,
+			"kind": "table1",
+			"landing": [
+				6.05,
+				72.54,
+				2.9
+			],
+			"motion": "rock",
+			"name": "Platform49",
+			"zone": 0
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 692.8,
+			"kind": "sofa",
+			"landing": [
+				10.51,
+				74.24,
+				4.44
+			],
+			"motion": "flip",
+			"name": "Platform50",
+			"zone": 0
+		},
+		{
+			"half_depth": 5.0,
+			"heading_deg": 611.0,
+			"kind": "cloud",
+			"landing": [
+				18.62,
+				75.84,
+				7.23
+			],
+			"motion": "",
+			"name": "Platform51",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 785.4,
+			"kind": "table1",
+			"landing": [
+				28.1,
+				77.24,
+				6.89
+			],
+			"motion": "",
+			"name": "Platform52",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 967.1,
+			"kind": "sofa",
+			"landing": [
+				32.51,
+				78.84,
+				5.14
+			],
+			"motion": "",
+			"name": "Platform53",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 704.2,
+			"kind": "cloud",
+			"landing": [
+				37.82,
+				80.54,
+				4.09
+			],
+			"motion": "",
+			"name": "Platform54",
+			"zone": 1
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 821.9,
+			"kind": "pipe",
+			"landing": [
+				42.37,
+				81.84,
+				4.48
+			],
+			"motion": "spin",
+			"name": "Platform55",
+			"zone": 1
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 548.2,
+			"kind": "train",
+			"landing": [
+				48.42,
+				83.14,
+				6.9
+			],
+			"motion": "",
+			"name": "Platform56",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.09,
+			"heading_deg": 757.8,
+			"kind": "cloud",
+			"landing": [
+				54.52,
+				84.64,
+				6.98
+			],
+			"motion": "bob",
+			"name": "Platform57",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 984.7,
+			"kind": "car",
+			"landing": [
+				60.74,
+				86.04,
+				5.48
+			],
+			"motion": "spin",
+			"name": "Platform58",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 754.3,
+			"kind": "sofa",
+			"landing": [
+				65.65,
+				87.44,
+				1.58
+			],
+			"motion": "slide",
+			"name": "Platform59",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.09,
+			"heading_deg": 1039.6,
+			"kind": "cloud",
+			"landing": [
+				68.51,
+				89.04,
+				-4.46
+			],
+			"motion": "bob",
+			"name": "Platform60",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 906.4,
+			"kind": "crate",
+			"landing": [
+				68.21,
+				90.24,
+				-10.21
+			],
+			"motion": "bob",
+			"name": "Platform61",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.09,
+			"heading_deg": 916.6,
+			"kind": "cloud",
+			"landing": [
+				66.13,
+				91.74,
+				-16.63
+			],
+			"motion": "orbit",
+			"name": "Platform62",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.6,
+			"heading_deg": 1081.9,
+			"kind": "crate",
+			"landing": [
+				59.62,
+				93.34,
+				-24.34
+			],
+			"motion": "orbit",
+			"name": "Platform63",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 996.3,
+			"kind": "table1",
+			"landing": [
+				52.46,
+				94.84,
+				-27.23
+			],
+			"motion": "slide",
+			"name": "Platform64",
+			"zone": 1
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 773.7,
+			"kind": "train",
+			"landing": [
+				43.08,
+				96.44,
+				-28.26
+			],
+			"motion": "rock",
+			"name": "Platform65",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 1118.8,
+			"kind": "table1",
+			"landing": [
+				35.71,
+				97.74,
+				-25.64
+			],
+			"motion": "slide",
+			"name": "Platform66",
+			"zone": 1
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 1037.3,
+			"kind": "building",
+			"landing": [
+				31.35,
+				99.44,
+				-21.24
+			],
+			"motion": "",
+			"name": "Platform67",
+			"zone": 1
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 824.5,
+			"kind": "train",
+			"landing": [
+				28.82,
+				100.64,
+				-12.16
+			],
+			"motion": "",
+			"name": "Platform68",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1235.3,
+			"kind": "car",
+			"landing": [
+				28.69,
+				102.14,
+				-5.52
+			],
+			"motion": "rock",
+			"name": "Platform69",
+			"zone": 1
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 1032.9,
+			"kind": "building",
+			"landing": [
+				26.34,
+				103.34,
+				1.81
+			],
+			"motion": "bob",
+			"name": "Platform70",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 1162.4,
+			"kind": "crate",
+			"landing": [
+				26.03,
+				104.84,
+				9.17
+			],
+			"motion": "rock",
+			"name": "Platform71",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1027.1,
+			"kind": "car",
+			"landing": [
+				27.75,
+				106.44,
+				13.96
+			],
+			"motion": "flip",
+			"name": "Platform72",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 1245.8,
+			"kind": "table1",
+			"landing": [
+				30.69,
+				108.04,
+				16.83
+			],
+			"motion": "bob",
+			"name": "Platform73",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.6,
+			"heading_deg": 1189.5,
+			"kind": "table2",
+			"landing": [
+				34.87,
+				109.34,
+				19.11
+			],
+			"motion": "bob",
+			"name": "Platform74",
+			"zone": 1
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 984.5,
+			"kind": "pipe",
+			"landing": [
+				39.04,
+				110.64,
+				20.17
+			],
+			"motion": "bob",
+			"name": "Platform75",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 1131.5,
+			"kind": "crate",
+			"landing": [
+				44.01,
+				112.24,
+				19.0
+			],
+			"motion": "rock",
+			"name": "Platform76",
+			"zone": 1
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 1357.5,
+			"kind": "pipe",
+			"landing": [
+				48.03,
+				113.54,
+				16.66
+			],
+			"motion": "spin",
+			"name": "Platform77",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.6,
+			"heading_deg": 1247.8,
+			"kind": "table2",
+			"landing": [
+				50.6,
+				114.84,
+				12.82
+			],
+			"motion": "bob",
+			"name": "Platform78",
+			"zone": 1
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 1273.7,
+			"kind": "pipe",
+			"landing": [
+				51.06,
+				116.14,
+				7.35
+			],
+			"motion": "orbit",
+			"name": "Platform79",
+			"zone": 1
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 1156.8,
+			"kind": "train",
+			"landing": [
+				52.21,
+				117.74,
+				2.46
+			],
+			"motion": "",
+			"name": "Platform80",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1132.8,
+			"kind": "car",
+			"landing": [
+				50.9,
+				119.34,
+				-4.51
+			],
+			"motion": "flip",
+			"name": "Platform81",
+			"zone": 1
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 1184.2,
+			"kind": "pipe",
+			"landing": [
+				48.19,
+				120.64,
+				-8.4
+			],
+			"motion": "",
+			"name": "Platform82",
+			"zone": 1
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 1083.0,
+			"kind": "train",
+			"landing": [
+				42.29,
+				122.24,
+				-11.41
+			],
+			"motion": "bob",
+			"name": "Platform83",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 1375.1,
+			"kind": "sofa",
+			"landing": [
+				36.87,
+				123.44,
+				-12.45
+			],
+			"motion": "rock",
+			"name": "Platform84",
+			"zone": 1
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 1356.5,
+			"kind": "pipe",
+			"landing": [
+				33.65,
+				124.74,
+				-11.55
+			],
+			"motion": "bob",
+			"name": "Platform85",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 1249.2,
+			"kind": "sofa",
+			"landing": [
+				29.67,
+				125.94,
+				-9.1
+			],
+			"motion": "flip",
+			"name": "Platform86",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.3,
+			"heading_deg": 1472.9,
+			"kind": "lambo",
+			"landing": [
+				25.97,
+				127.34,
+				-3.41
+			],
+			"motion": "orbit",
+			"name": "Platform87",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 1460.8,
+			"kind": "crate",
+			"landing": [
+				25.13,
+				128.94,
+				4.44
+			],
+			"motion": "spin",
+			"name": "Platform88",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.09,
+			"heading_deg": 1589.7,
+			"kind": "cloud",
+			"landing": [
+				27.82,
+				130.34,
+				12.38
+			],
+			"motion": "orbit",
+			"name": "Platform89",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.81,
+			"heading_deg": 1460.0,
+			"kind": "cloud",
+			"landing": [
+				32.7,
+				131.64,
+				18.69
+			],
+			"motion": "flip",
+			"name": "Platform90",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.3,
+			"heading_deg": 1530.0,
+			"kind": "lambo",
+			"landing": [
+				35.23,
+				133.14,
+				24.57
+			],
+			"motion": "orbit",
+			"name": "Platform91",
+			"zone": 1
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 1455.2,
+			"kind": "pipe",
+			"landing": [
+				36.08,
+				134.44,
+				29.49
+			],
+			"motion": "rock",
+			"name": "Platform92",
+			"zone": 1
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1373.4,
+			"kind": "car",
+			"landing": [
+				37.44,
+				136.04,
+				32.32
+			],
+			"motion": "flip",
+			"name": "Platform93",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.7,
+			"heading_deg": 1483.2,
+			"kind": "table1",
+			"landing": [
+				40.44,
+				137.84,
+				35.64
+			],
+			"motion": "slide",
+			"name": "Platform94",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 1629.1,
+			"kind": "cloud",
+			"landing": [
+				46.33,
+				139.14,
+				37.7
+			],
+			"motion": "flip",
+			"name": "Platform95",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.6,
+			"heading_deg": 1698.2,
+			"kind": "table2",
+			"landing": [
+				52.0,
+				140.94,
+				38.02
+			],
+			"motion": "flip",
+			"name": "Platform96",
+			"zone": 1
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 1362.0,
+			"kind": "train",
+			"landing": [
+				61.07,
+				142.64,
+				36.1
+			],
+			"motion": "slide",
+			"name": "Platform97",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.81,
+			"heading_deg": 1380.2,
+			"kind": "cloud",
+			"landing": [
+				69.37,
+				144.44,
+				31.77
+			],
+			"motion": "flip",
+			"name": "Platform98",
+			"zone": 1
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 1568.0,
+			"kind": "pipe",
+			"landing": [
+				72.63,
+				145.74,
+				28.45
+			],
+			"motion": "spin",
+			"name": "Platform99",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 1466.0,
+			"kind": "crate",
+			"landing": [
+				75.33,
+				146.94,
+				23.37
+			],
+			"motion": "slide",
+			"name": "Platform100",
+			"zone": 1
+		},
+		{
+			"half_depth": 1.9,
+			"heading_deg": 1464.2,
+			"kind": "sofa",
+			"landing": [
+				75.94,
+				148.54,
+				17.48
+			],
+			"motion": "bob",
+			"name": "Platform101",
+			"zone": 1
+		},
+		{
+			"half_depth": 5.0,
+			"heading_deg": 1434.1,
+			"kind": "dock",
+			"landing": [
+				76.8,
+				150.34,
+				9.25
+			],
+			"motion": "",
+			"name": "Platform102",
+			"zone": 2
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 1646.9,
+			"kind": "pipe",
+			"landing": [
+				73.85,
+				151.64,
+				0.81
+			],
+			"motion": "float",
+			"name": "Platform103",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.5,
+			"heading_deg": 1623.9,
+			"kind": "asteroid",
+			"landing": [
+				73.5,
+				152.84,
+				-3.66
+			],
+			"motion": "float",
+			"name": "Platform104",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1513.4,
+			"kind": "police",
+			"landing": [
+				70.14,
+				154.44,
+				-8.94
+			],
+			"motion": "float",
+			"name": "Platform105",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.65,
+			"heading_deg": 1734.5,
+			"kind": "asteroid",
+			"landing": [
+				68.64,
+				155.84,
+				-14.6
+			],
+			"motion": "float",
+			"name": "Platform106",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.25,
+			"heading_deg": 1745.2,
+			"kind": "ship",
+			"landing": [
+				63.4,
+				157.44,
+				-19.93
+			],
+			"motion": "float",
+			"name": "Platform107",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 1559.1,
+			"kind": "saucer",
+			"landing": [
+				54.2,
+				158.84,
+				-24.33
+			],
+			"motion": "float+flip",
+			"name": "Platform108",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.4,
+			"heading_deg": 1853.3,
+			"kind": "asteroid",
+			"landing": [
+				46.25,
+				160.24,
+				-24.01
+			],
+			"motion": "float+flip",
+			"name": "Platform109",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.4,
+			"heading_deg": 1868.4,
+			"kind": "asteroid",
+			"landing": [
+				41.36,
+				161.84,
+				-21.14
+			],
+			"motion": "float",
+			"name": "Platform110",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1612.8,
+			"kind": "car",
+			"landing": [
+				37.86,
+				163.34,
+				-16.57
+			],
+			"motion": "float+rock",
+			"name": "Platform111",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.25,
+			"heading_deg": 1945.3,
+			"kind": "ship",
+			"landing": [
+				36.75,
+				164.84,
+				-8.51
+			],
+			"motion": "float",
+			"name": "Platform112",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.4,
+			"heading_deg": 1834.6,
+			"kind": "asteroid",
+			"landing": [
+				38.65,
+				166.44,
+				-1.1
+			],
+			"motion": "float",
+			"name": "Platform113",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 1858.1,
+			"kind": "asteroid",
+			"landing": [
+				41.9,
+				167.74,
+				3.62
+			],
+			"motion": "float+flip",
+			"name": "Platform114",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 1795.6,
+			"kind": "saucer",
+			"landing": [
+				44.5,
+				169.34,
+				11.57
+			],
+			"motion": "float+rock",
+			"name": "Platform115",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.5,
+			"heading_deg": 1966.7,
+			"kind": "asteroid",
+			"landing": [
+				48.96,
+				170.64,
+				17.73
+			],
+			"motion": "float",
+			"name": "Platform116",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.5,
+			"heading_deg": 1960.3,
+			"kind": "asteroid",
+			"landing": [
+				50.7,
+				171.94,
+				23.02
+			],
+			"motion": "float+rock",
+			"name": "Platform117",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 1999.1,
+			"kind": "saucer",
+			"landing": [
+				55.79,
+				173.34,
+				28.94
+			],
+			"motion": "float+flip",
+			"name": "Platform118",
+			"zone": 2
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 1652.3,
+			"kind": "train",
+			"landing": [
+				65.99,
+				174.54,
+				34.3
+			],
+			"motion": "float+rock",
+			"name": "Platform119",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.5,
+			"heading_deg": 1839.0,
+			"kind": "asteroid",
+			"landing": [
+				74.69,
+				176.14,
+				35.18
+			],
+			"motion": "float+flip",
+			"name": "Platform120",
+			"zone": 2
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 1719.7,
+			"kind": "train",
+			"landing": [
+				84.42,
+				177.44,
+				33.51
+			],
+			"motion": "float",
+			"name": "Platform121",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1915.5,
+			"kind": "car",
+			"landing": [
+				93.1,
+				179.04,
+				27.96
+			],
+			"motion": "float",
+			"name": "Platform122",
+			"zone": 2
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 1794.2,
+			"kind": "train",
+			"landing": [
+				98.91,
+				180.24,
+				19.89
+			],
+			"motion": "float",
+			"name": "Platform123",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.5,
+			"heading_deg": 2002.5,
+			"kind": "asteroid",
+			"landing": [
+				105.59,
+				181.74,
+				13.5
+			],
+			"motion": "float+rock",
+			"name": "Platform124",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.25,
+			"heading_deg": 2089.3,
+			"kind": "ship",
+			"landing": [
+				109.89,
+				183.34,
+				6.58
+			],
+			"motion": "float",
+			"name": "Platform125",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.1,
+			"heading_deg": 1863.7,
+			"kind": "asteroid",
+			"landing": [
+				115.93,
+				184.84,
+				0.23
+			],
+			"motion": "float+flip",
+			"name": "Platform126",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1764.0,
+			"kind": "police",
+			"landing": [
+				122.05,
+				186.14,
+				-3.61
+			],
+			"motion": "float",
+			"name": "Platform127",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.4,
+			"heading_deg": 1755.4,
+			"kind": "asteroid",
+			"landing": [
+				127.76,
+				187.74,
+				-6.08
+			],
+			"motion": "float",
+			"name": "Platform128",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.1,
+			"heading_deg": 1949.5,
+			"kind": "asteroid",
+			"landing": [
+				132.4,
+				189.34,
+				-10.09
+			],
+			"motion": "float",
+			"name": "Platform129",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.5,
+			"heading_deg": 1920.2,
+			"kind": "asteroid",
+			"landing": [
+				135.43,
+				190.84,
+				-15.43
+			],
+			"motion": "float",
+			"name": "Platform130",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.1,
+			"heading_deg": 2128.2,
+			"kind": "asteroid",
+			"landing": [
+				136.51,
+				192.14,
+				-22.09
+			],
+			"motion": "float+flip",
+			"name": "Platform131",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.1,
+			"heading_deg": 1815.6,
+			"kind": "asteroid",
+			"landing": [
+				135.31,
+				193.74,
+				-29.17
+			],
+			"motion": "float",
+			"name": "Platform132",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 1831.8,
+			"kind": "police",
+			"landing": [
+				131.83,
+				195.34,
+				-34.98
+			],
+			"motion": "float+flip",
+			"name": "Platform133",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.4,
+			"heading_deg": 1900.0,
+			"kind": "asteroid",
+			"landing": [
+				127.46,
+				196.54,
+				-39.12
+			],
+			"motion": "float+rock",
+			"name": "Platform134",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.4,
+			"heading_deg": 1946.3,
+			"kind": "asteroid",
+			"landing": [
+				122.59,
+				197.84,
+				-41.49
+			],
+			"motion": "float+flip",
+			"name": "Platform135",
+			"zone": 2
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 1881.7,
+			"kind": "train",
+			"landing": [
+				112.9,
+				199.34,
+				-42.9
+			],
+			"motion": "float+rock",
+			"name": "Platform136",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 2092.5,
+			"kind": "asteroid",
+			"landing": [
+				103.63,
+				200.94,
+				-39.7
+			],
+			"motion": "float+flip",
+			"name": "Platform137",
+			"zone": 2
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 1864.0,
+			"kind": "train",
+			"landing": [
+				96.84,
+				202.54,
+				-35.13
+			],
+			"motion": "float",
+			"name": "Platform138",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 2172.5,
+			"kind": "police",
+			"landing": [
+				93.14,
+				204.14,
+				-29.87
+			],
+			"motion": "float",
+			"name": "Platform139",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.4,
+			"heading_deg": 2301.7,
+			"kind": "asteroid",
+			"landing": [
+				92.14,
+				205.64,
+				-23.73
+			],
+			"motion": "float+flip",
+			"name": "Platform140",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 2345.9,
+			"kind": "saucer",
+			"landing": [
+				94.31,
+				206.84,
+				-16.65
+			],
+			"motion": "float+flip",
+			"name": "Platform141",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.25,
+			"heading_deg": 2072.3,
+			"kind": "ship",
+			"landing": [
+				100.04,
+				208.14,
+				-8.11
+			],
+			"motion": "float+flip",
+			"name": "Platform142",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.4,
+			"heading_deg": 2159.2,
+			"kind": "asteroid",
+			"landing": [
+				102.87,
+				209.54,
+				-1.17
+			],
+			"motion": "float+rock",
+			"name": "Platform143",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.0,
+			"heading_deg": 2291.4,
+			"kind": "saucer",
+			"landing": [
+				107.24,
+				211.14,
+				4.42
+			],
+			"motion": "float",
+			"name": "Platform144",
+			"zone": 2
+		},
+		{
+			"half_depth": 3.25,
+			"heading_deg": 2335.8,
+			"kind": "ship",
+			"landing": [
+				111.41,
+				212.74,
+				12.95
+			],
+			"motion": "float+rock",
+			"name": "Platform145",
+			"zone": 2
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 2064.6,
+			"kind": "train",
+			"landing": [
+				121.22,
+				214.34,
+				19.91
+			],
+			"motion": "float+rock",
+			"name": "Platform146",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 2262.9,
+			"kind": "police",
+			"landing": [
+				131.22,
+				215.84,
+				21.93
+			],
+			"motion": "float+rock",
+			"name": "Platform147",
+			"zone": 2
+		},
+		{
+			"half_depth": 0.95,
+			"heading_deg": 2121.6,
+			"kind": "pipe",
+			"landing": [
+				136.37,
+				217.14,
+				20.86
+			],
+			"motion": "float",
+			"name": "Platform148",
+			"zone": 2
+		},
+		{
+			"half_depth": 2.2,
+			"heading_deg": 2135.0,
+			"kind": "police",
+			"landing": [
+				141.36,
+				218.74,
+				18.3
+			],
+			"motion": "float",
+			"name": "Platform149",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.5,
+			"heading_deg": 2271.7,
+			"kind": "asteroid",
+			"landing": [
+				145.22,
+				220.24,
+				13.61
+			],
+			"motion": "float",
+			"name": "Platform150",
+			"zone": 2
+		},
+		{
+			"half_depth": 6.0,
+			"heading_deg": 2136.7,
+			"kind": "train",
+			"landing": [
+				148.91,
+				221.54,
+				5.05
+			],
+			"motion": "float",
+			"name": "Platform151",
+			"zone": 2
+		},
+		{
+			"half_depth": 1.8,
+			"heading_deg": 2335.9,
+			"kind": "asteroid",
+			"landing": [
+				148.86,
+				222.94,
+				-4.75
+			],
+			"motion": "float",
+			"name": "Platform152",
+			"zone": 2
+		},
+		{
+			"half_depth": 5.0,
+			"heading_deg": 2160.3,
+			"kind": "summit",
+			"landing": [
+				148.82,
+				224.74,
+				-13.48
+			],
+			"motion": "",
+			"name": "Summit",
+			"zone": 2
+		}
+	],
+	"summit": 224.73796081543,
+	"zone_heights": [
+		0.0,
+		75.8378372192383,
+		150.337860107422
+	]
+}

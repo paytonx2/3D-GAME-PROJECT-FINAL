@@ -1,0 +1,75 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Hazard.gd" id="1_hzrd"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pole"]
+albedo_color = Color(0.301961, 0.301961, 0.34902, 1)
+metallic = 0.6
+roughness = 0.4
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_head"]
+albedo_color = Color(0.85098, 0.180392, 0.14902, 1)
+metallic = 0.2
+roughness = 0.5
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_pole"]
+material = SubResource("StandardMaterial3D_pole")
+top_radius = 0.06
+bottom_radius = 0.06
+height = 1.4
+
+[sub_resource type="BoxMesh" id="BoxMesh_head"]
+material = SubResource("StandardMaterial3D_head")
+size = Vector3(0.7, 0.7, 0.7)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_head"]
+size = Vector3(0.7, 0.7, 0.7)
+
+[sub_resource type="Animation" id="Animation_swing"]
+resource_name = "Swing"
+length = 2.4
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Pivot:rotation:z")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6, 1.8, 2.4),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [0.0, 0.7, -0.7, 0.0]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_swing"]
+_data = {
+"Swing": SubResource("Animation_swing")
+}
+
+[node name="SwingingHammer" type="Node3D"]
+
+[node name="Pivot" type="Node3D" parent="."]
+
+[node name="Pole" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.7, 0)
+mesh = SubResource("CylinderMesh_pole")
+
+[node name="Head" type="MeshInstance3D" parent="Pivot"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.75, 0)
+mesh = SubResource("BoxMesh_head")
+
+[node name="Hazard" type="Area3D" parent="Pivot"]
+script = ExtResource("1_hzrd")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Pivot/Hazard"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.75, 0)
+shape = SubResource("BoxShape3D_head")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Swing"
+libraries = {
+"": SubResource("AnimationLibrary_swing")
+}
+
+[connection signal="body_entered" from="Pivot/Hazard" to="Pivot/Hazard" method="_on_body_entered"]
